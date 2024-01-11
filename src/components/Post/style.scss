@@ -1,0 +1,125 @@
+.post-container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-items: flex-start;
+  padding: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 8px;
+  background-color: white;
+
+  .first {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  .title {
+    color: rgb(22, 128, 167);
+    font-size: 1rem;
+  }
+  .value {
+    color: #414141;
+    font-size: 0.765rem;
+  }
+
+  .badge222 {
+    font-weight: 600;
+    font-size: 0.65rem;
+    padding: 1px 5px;
+    background-color: rgb(22, 128, 167);
+    border-radius: 10px;
+    color: #eef2f4;
+    padding: 4px;
+  }
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  padding-top: 0.8rem;
+  border-top: 1px solid #eef2f4;
+  width: 800px;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+}
+
+input[type="text"] {
+  color: black;
+  background-color: white;
+  padding: 2px 5px;
+  border-radius: 1rem;
+  outline: none;
+  border: 1px solid #d7d7d7;
+  height: 30px;
+  width: 100%;
+}
+
+::placeholder {
+  color: #a4a4a4;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8px;
+  align-items: center;
+  background-color: #ff535d;
+  cursor: pointer;
+  user-select: none;
+}
+
+.interaction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1rem;
+
+  .infos {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+    .text {
+      font-weight: 500;
+      font-size: 0.865rem;
+      color: #d0d2d5;
+    }
+  }
+}
+
+.expand {
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #5fc172;
+  margin: 0 auto;
+  cursor: pointer;
+}

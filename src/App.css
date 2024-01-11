@@ -1,0 +1,10 @@
+.app {
+  background-color: rgb(226, 231, 236);
+}
+.navbar {
+  width: 100%;
+}
+.home {
+  position: absolute;
+  margin-left: 30px;
+}
